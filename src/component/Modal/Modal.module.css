@@ -1,0 +1,56 @@
+.modalWrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.formWrapper{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(197, 245, 243, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.btnFormWrapper{
+    position: absolute;
+    top:15px;
+    right: 15px;
+}
+.btnClose{
+    border: none;
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btnBlockWrapper{
+    position: absolute;
+    bottom: 30px;
+}
+
+.btnModalOk, .btnModalCancel{
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 2px 20px;
+}
+
+.btnModalOk{
+    background-color: lightgreen;
+}
+
+.btnModalCancel{
+    background-color: red;
+}

@@ -1,0 +1,37 @@
+.headerWrapper{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.weatherBlock{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.weatherItem{
+    padding: 10px;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navPanel{
+    display: flex;
+}
+
+.navItem{
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.navLink{
+    color: black;
+}
