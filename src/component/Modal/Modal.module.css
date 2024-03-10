@@ -11,7 +11,8 @@
 }
 
 .formWrapper{
-    width: 300px;
+    width: 35%;
+    min-width: 370px;
     height: 300px;
     border-radius: 10px;
     padding: 20px;
@@ -35,22 +36,8 @@
 }
 
 .btnBlockWrapper{
-    position: absolute;
-    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btnModalOk, .btnModalCancel{
-    margin: 0 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 15px;
-    padding: 2px 20px;
-}
-
-.btnModalOk{
-    background-color: lightgreen;
-}
-
-.btnModalCancel{
-    background-color: red;
-}

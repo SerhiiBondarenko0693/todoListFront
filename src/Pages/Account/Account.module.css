@@ -1,0 +1,4 @@
+.sectionList{
+    display: flex;
+    flex-wrap: wrap;
+}

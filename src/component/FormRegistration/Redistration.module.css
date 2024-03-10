@@ -1,0 +1,76 @@
+.title{
+    margin-bottom: 5px;
+}
+
+.inputWrapper{
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+}
+
+.otherBtn{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.otherBtnItem{
+    cursor: pointer;
+}
+
+.inputError{
+    position: absolute;
+    color: red;
+    font-size: 16px;
+    bottom: -7px;
+    margin-left: 5px;
+    font-weight: 500;
+
+}
+
+.inputBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginWrapper{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    margin: 10px 0;
+    border-radius: 5px;
+    /*width: 280px;*/
+    width: 100%;
+
+
+
+}
+
+.btnModalOk, .btnModalCancel{
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.btnModalOk{
+    background-color: lightgreen;
+    padding: 5px 20px;
+}
+
+.btnModalCancel{
+    background-color: red;
+    padding: 5px 20px;
+}
