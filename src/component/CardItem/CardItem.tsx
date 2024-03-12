@@ -39,7 +39,6 @@ const CardItem:FC<CardItemProps> = ({_id, title,
     const doneApiStatus = useSelector<RootState, string>((state) => state.list.doneApiStatus);
     const deleteApiStatus = useSelector<RootState, string>((state) => state.list.deleteApiStatus);
 
-    console.log(disableDoneBtn);
 
     useEffect(()=>{
         doneApiStatus === "pending"? setDisableDoneBtn(true) : setDisableDoneBtn(false);

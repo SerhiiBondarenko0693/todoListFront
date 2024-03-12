@@ -1,31 +1,44 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 interface ModalState {
-    isOpen: boolean;
+    isOpenSecondModal:boolean;
+    isOpenEdit: boolean;
+    isOpenAdd: boolean;
 
 }
 
 const initialState: ModalState = {
-    isOpen: false,
+    isOpenSecondModal:false,
+    isOpenEdit: false,
+    isOpenAdd: false,
+
 
 
 
 };
 
-const changeCardModal = createSlice({
+const secondModal = createSlice({
     name: "changeCardModal",
     initialState,
     reducers: {
         openChangeCardModal: (state) => {
-            state.isOpen = true;
+            state.isOpenEdit = true;
+            state.isOpenSecondModal = true;
         },
+        openAddCardModal: (state) => {
+            state.isOpenAdd = true;
+            state.isOpenSecondModal = true;
+        },
+
         closeChangeCardModal: (state) => {
-            state.isOpen = false;
+            state.isOpenEdit = false;
+            state.isOpenAdd = false;
+            state.isOpenSecondModal = false;
         },
 
     },
 });
 
-export const { openChangeCardModal, closeChangeCardModal } = changeCardModal.actions;
+export const { openChangeCardModal, closeChangeCardModal, openAddCardModal } = secondModal.actions;
 
-export default changeCardModal;
+export default secondModal;

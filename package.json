@@ -15,6 +15,7 @@
     "axios": "^1.6.2",
     "formik": "^2.4.5",
     "jwt-decode": "^4.0.0",
+    "lovely-toggle-switch": "^1.0.5",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-calendar": "^4.7.0",

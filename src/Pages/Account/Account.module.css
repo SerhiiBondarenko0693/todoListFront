@@ -1,4 +1,15 @@
 .sectionList{
     display: flex;
+    flex-direction: column;
+}
+
+.createBtn{
+    margin: 10px 0;
+}
+
+.cardBlock{
+    display: flex;
     flex-wrap: wrap;
+
+    justify-content: space-between;
 }

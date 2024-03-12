@@ -62,7 +62,7 @@ const Header:FC = () => {
             dispatch(openModalLogin())
 
         }else {
-            navigate("/home")
+            navigate("/account")
         }
     }
 
